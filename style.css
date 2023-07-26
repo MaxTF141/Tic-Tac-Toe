@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  /* margin-top: 30px; */
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+h5 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+.welcome {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important; */
+  z-index: 3;
+}
+
+.hideWelcome {
+  display: none;
+}
+
+button {
+  background-color: white;
+  border: solid 1px black;
+  font-family: 'Caveat Brush', cursive;
+  padding: 15px 10px;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  background-color: rgb(255, 255, 255);
+  filter: blur(17px);
+}
+
+.board {
+  display: inline-block;
+  border-collapse: collapse;
+}
+
+.board td {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #333;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.board td:hover {
+  background-color: #f0f0f0;
+}
